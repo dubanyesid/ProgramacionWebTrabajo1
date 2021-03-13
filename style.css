@@ -17,6 +17,8 @@ body{
     background-position: center;
     background-attachment: fixed;
     position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify; 
 }
 body ::before {
     position: absolute;
@@ -26,6 +28,7 @@ body ::before {
   }
   #p1,#p2{
       color:rgb(5, 5, 5);
+      font-family: 'Courier New', Courier, monospace;
 
   }
   #tabla{
@@ -38,4 +41,12 @@ body ::before {
     text-align: left;
     vertical-align: top;
     border: 1px solid #000;
+  }
+  #pf{
+    color: red;
+  }
+  #formulario{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
   }
