@@ -50,3 +50,236 @@ body ::before {
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
   }
+  form {
+    border: 1px solid;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1000px white;
+}
+input , textarea{
+    border:0;
+    background: none;
+    display: block;
+    margin : 20px auto;
+    text-align: center;
+    border: 1px solid;
+    border-color:white;
+    padding: 14px  10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-style: italic;
+    font-size: 15px;
+}
+input:focus{
+    border: 2px solid;
+    width: 280px;
+    border-color:black;
+    
+}
+.box input[type ="Submit"]{
+    border:0;
+    background: none;
+    display :block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid;
+    border-color:black;
+    padding: 14px 30px;
+    outline:none;
+    color:black;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.box input[type = "Submit"]:hover {
+    border: 2px solid;
+    transition: 0.5s;
+    background-color:rgb(12, 12, 12);
+    border-color:white;
+    color: white;
+}
+#usuario, #Password{
+    color: black;
+}
+#frase{
+    color: white;
+    font-size: 22px;
+    font-family: italic;
+    text-align: inherit;
+}
+
+
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.form-group {
+    margin: 15px auto;
+    text-align: left;
+    width: 80%;
+}
+
+.checkbox {
+    text-align: left;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    float: right;
+    margin: auto;
+}
+
+#btn-enviar {
+    width: 200px;
+}
+
+.btn-default {
+    background-color: #7cabd3;
+    color: white;
+    border: 1px solid #36A0FF;
+}
+
+.btn-default:hover {
+    background-color: #2a95f3;
+    box-shadow: 0 0 5px #2a95f3, 0 0 5px #2a95f3, 0 0 5px #2a95f3;
+    color: white;
+    border: none;
+}
+
+.login {
+    margin: 12px auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    background-color: #e2dfdf;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.signup {
+    margin: 12px auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    background-color: #e2dfdf;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#txtInfo {
+    opacity: 1;
+    color: black;
+}
+
+.btn-login .btn-default {
+    width: 200px;
+    opacity: 1;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36A0FF;
+    border-radius: 6px;
+    padding: 18px;
+}
+
+input {
+    text-align: center;
+}
+
+select {
+    text-align-last: center;
+}
+
+@media (max-width: 600px) {
+    .checkbox {
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .button {
+        display: block;
+        width: 100%;
+    }
+    .lbl-recuerdame {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .login {
+        margin: 10px auto;
+    }
+}
+#img-logo {
+    height: 40px;
+    margin: auto;
+    margin-top: 2px;
+    display: block;
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 8px;
+}
+
+.navbar ul {
+    float: right;
+}
+
+#txt-navbar {
+    color: aliceblue;
+}
+
+#txt-navbar:hover {
+    box-shadow: 0 0 2px rgba(54, 54, 54, 0.932), 0 0 2px rgba(54, 54, 54, 0.932), 0 0 2px rgba(54, 54, 54, 0.932);
+    color: aliceblue;
+}
+
+.navbar-default {
+    background-color: rgba(22, 21, 21, 0.932);
+}
+
+picture img {
+    width: 95%;
+    height: 80%;
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+        float: left;
+        width: 100%;
+    }
+    .navbar li:hover {
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 0 4px rgba(20, 20, 20, 0.932), 0 0 4px rgba(19, 19, 19, 0.932), 0 0 4px rgba(20, 20, 20, 0.932);
+        color: aliceblue;
+    }
+}
