@@ -71,6 +71,7 @@ input , textarea{
     transition: 0.25s;
     font-style: italic;
     font-size: 15px;
+    size: 20px;
 }
 input:focus{
     border: 2px solid;

@@ -11,10 +11,18 @@
    
     <form action="datos.php" method="POST" >
        <div id="form"><h1>Formulario</h1></div>
-       <h3>Nombre:</h3> <input id ="name "type ="text"  placeholder="Escribe tu nombre" name="nombre">
-       <h3>Asunto:</h3> <input type ="text" placeholder="Escribe tu asunto" name="asunto">
-       <h3>Email:</h3> <input type="email" placeholder="example@hotmail.com"name="email">
-       <h3>Mensaje:</h3> <textarea id="txt" placeholder="Escribe tu mensaje" name="mensaje"></textarea>
+
+       <label for="name"><h3>Nombre:</h3></label>
+        <input type ="text"  placeholder="Escribe tu nombre" maxlength="20" name="nombre" id ="name">
+
+        <label for="asunto"><h3>Asunto:</h3></label>
+        <input type ="text" placeholder="Escribe tu asunto"  maxlength="20" name="asunto" id="asunto">
+
+        <label for="email"><h3>Email:</h3></label>
+        <input type="email" placeholder="example@hotmail.com"  maxlength="30" name="email" id="email">
+
+       <label for="mensaje"><h3>Mensaje:</h3></label>
+         <textarea id="txt" placeholder="Escribe tu mensaje"  maxlength="300"name="mensaje" id="mensaje"></textarea>
        <input id="boton" type="submit" name="boton">
 
 
