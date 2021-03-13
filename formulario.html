@@ -8,12 +8,14 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
-    <form class="box"id="formulario">
-       <input type ="text" name="nombre">
-       <input type ="text" name ="asunto">
-       <input type="email" name="email">
-       <textarea id="txt" type="asunto" name="mensaje"></textarea>
-       <input type="submit" name="boton">
+   
+    <form action="datos.php" method="POST" >
+       <h1>Formulario</h1>
+       <input type ="text" value="Escribe tu nombre" name="nombre">
+       <input type ="text" value="Escribe tu asunto" name="asunto">
+       <input type="email" value="example@hotmail.com"name="email">
+       <textarea id="txt" value="Escribe tu mensaje" name="mensaje"></textarea>
+       <input id="boton" type="submit" name="boton">
 
 
 
