@@ -4,6 +4,7 @@
     background: linear-gradient(90deg,rgb(65, 63, 63), rgb(19, 18, 18));
     opacity: 0.9;
     display: block;    
+    margin-bottom: initial;
 }
 .responsive {
     width: 100%;
