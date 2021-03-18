@@ -5,6 +5,7 @@
     opacity: 0.9;
     display: block;    
     margin-bottom: initial;
+    float: inline-start;
 }
 .responsive {
     width: 100%;
@@ -17,6 +18,7 @@
 #nombre{
     color: red;
     text-align: right;
+    
 }
 body{
     background-image: url("../imagenes/foto3.2.jpg"); 
@@ -63,8 +65,10 @@ body ::before {
   }
   form {
     border: 1px solid;
-    border-radius: 50px;
-    box-shadow: 1px 1px 1000px white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px white;
+
+
 }
 input , textarea{
     border:0;
@@ -137,9 +141,10 @@ input:focus{
 }
 
 form {
-    width: 75%;
+    width: 50%;
     margin: auto;
     display: block;
+    text-align: justify;
 }
 
 .form-group {
@@ -184,38 +189,6 @@ form {
     border: none;
 }
 
-.login {
-    margin: 12px auto;
-    display: block;
-    width: 80%;
-    padding: 14px;
-    text-align: center;
-    background-color: #e2dfdf;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-.signup {
-    margin: 12px auto;
-    display: block;
-    width: 80%;
-    padding: 14px;
-    text-align: center;
-    background-color: #e2dfdf;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-#txtInfo {
-    opacity: 1;
-    color: black;
-}
-
-.btn-login .btn-default {
-    width: 200px;
-    opacity: 1;
-}
-
 form {
     text-align: center;
     justify-content: center;
@@ -223,6 +196,7 @@ form {
     border: 10px solid white;
     border-radius: 6px;
     padding: 18px;
+
 }
 
 input {
@@ -244,15 +218,12 @@ select {
 #caja1,#caja2,#caja3,#caja4,#caja5,#caja6,#cajaFoto{
    border: 20px solid rgb(165, 165, 165);
     border-radius: 20px;
-    box-shadow: 1px 1px 1000px white
-    width =120px;
-    border-top-width:8px;
+    box-shadow: 1px 1px 1000px white;
     margin: 30px;
 
 }
 
  #caja4,#caja6,#caja5{
     text-align: center;
-    
  }
 
