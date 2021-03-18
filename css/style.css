@@ -4,11 +4,8 @@
     background: linear-gradient(90deg,rgb(65, 63, 63), rgb(19, 18, 18));
     opacity: 0.9;
     display: block;   
-    margin:10px auto;
-    display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50;
     height: auto;
 
 }
@@ -59,7 +56,7 @@ body ::before {
   #formulario{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
+    text-align: center;
   }
   form {
     border: 1px solid;
