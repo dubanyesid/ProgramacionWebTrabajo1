@@ -1,14 +1,21 @@
 #foto{
-    width: 350px;
+    width: 80%;
+    max-width: 250px;
     height: 400px;
     background: linear-gradient(90deg,rgb(65, 63, 63), rgb(19, 18, 18));
     opacity: 0.9;
+    min-height: 50px;
+    min-width: 50px;
     
 
 }
-#foto2,#foto3{
-    width: 300px;
-    height: 400px;
+#foto2, #foto3{
+    width: 80%;
+    max-width: 250px;
+    height: 300px;
+    min-height: 50px;
+    min-width: 50px;
+    
 }
 #nombre{
     color: red;
@@ -63,7 +70,9 @@ body ::before {
     border-radius: 20px;
     box-shadow: 1px 1px 1px white;
 
-
+}
+#form h1{
+    width: auto;
 }
 input , textarea{
     border:0;
@@ -250,15 +259,14 @@ select {
     margin: 30px;
 
 }
-
- 
 .container{
     border: 20px solid rgb(165, 165, 165);
     border-radius: 20px;
     box-shadow: 1px 1px 1000px white;
     margin: 30px;
-   width: 100%;
-   margin: auto;
+    width: 100%;
+    margin: auto;
+
 }
 #caja5, #caja6{
     text-align: center;
