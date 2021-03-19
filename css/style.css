@@ -1,15 +1,15 @@
 #foto{
-    width: 600px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
     background: linear-gradient(90deg,rgb(65, 63, 63), rgb(19, 18, 18));
     opacity: 0.9;
-    display: block;   
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+    
 
 }
-
+#foto2,#foto3{
+    width: 300px;
+    height: 400px;
+}
 #nombre{
     color: red;
     text-align: center;
@@ -251,6 +251,16 @@ select {
 
 }
 
- #caja4,#caja6,#caja5{
+ 
+.container{
+    border: 20px solid rgb(165, 165, 165);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1000px white;
+    margin: 30px;
+   width: 100%;
+   margin: auto;
+}
+#caja5, #caja6{
     text-align: center;
- }
+
+}
