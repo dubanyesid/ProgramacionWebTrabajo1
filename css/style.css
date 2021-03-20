@@ -305,6 +305,12 @@ select {
         margin-top: 10%;
         font-size: 8.5px;
     }
+    #cancion{
+        width: 90%;
+        height: 170px;
+        margin-top: 4%;
+    }
+    }
 }
 @media all and (max-width: 500px) {
      input, textarea{
